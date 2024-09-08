@@ -16,8 +16,10 @@ class child extends papa {
   }
 }
 
+//double inheritence
 void main() {
   child ch = new child();
+
   ch.plot();
   ch.car();
   ch.bike();
